@@ -24,9 +24,7 @@ namespace Homework_number_6
 
             Console.WriteLine("||Магазин||\n");
             Console.WriteLine($"Добрый день мы приветствуем вас в нашей лавке у нас вы можете поменять золото на кристалы\n" +
-                              $"цена одного Кристала {priceOneCrystal} золота\n" +
-                              $"Сколько вы хотите купить кристалов?\n" +
-                              $"Курс кристалов: {priceOneCrystal}\n" +
+                              $"Цена одного Кристала {priceOneCrystal} золота\n" +
                               $"Доступное количество Кристалов для покупки: {numberOfCrystals}\n");
 
             Console.Write("Укажите количество Кристалов для покупки: ");
@@ -49,7 +47,7 @@ namespace Homework_number_6
                              $"Количество Кристалов у вас: {crystals}\n");
 
             Console.WriteLine("||Магазин||\n");
-            Console.WriteLine($"Курс кристалов: {priceOneCrystal} \n" +
+            Console.WriteLine($"Цена одного Кристала: {priceOneCrystal} \n" +
                               $"Доступное количество Кристалов для покупки: {numberOfCrystals}\n");
             Console.ReadLine();
         }
